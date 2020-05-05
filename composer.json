@@ -1,0 +1,22 @@
+{
+    "name": "hotpay_money/api_client",
+    "description": "Merchant client library",
+    "type": "library",
+    "authors": [
+        {
+            "name": "hulko.s",
+            "email": "admin@hotpay.money"
+        }
+    ],
+    "require": {
+        "netresearch/jsonmapper": "^1.6",
+        "khr/php-mcurl-client": "^3.1",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "HotpayMoney\\": "src/"
+        }
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4e229f280a1f090e62553b509432574e",
+    "packages": [
+        {
+            "name": "khr/php-mcurl-client",
+            "version": "3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/KhristenkoYura/mcurl.git",
+                "reference": "894eb864a0410173264b95ea7c69f15bb9d2cbe1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/KhristenkoYura/mcurl/zipball/894eb864a0410173264b95ea7c69f15bb9d2cbe1",
+                "reference": "894eb864a0410173264b95ea7c69f15bb9d2cbe1",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MCurl\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Khristenko Yura",
+                    "email": "khristenkoyura@gmail.com"
+                }
+            ],
+            "description": "wrap curl client (http client) for PHP 5.3; using php multi curl, parallel request and write asynchronous code",
+            "homepage": "http://github.com/khristenkoyura/mcurl",
+            "keywords": [
+                "async",
+                "client",
+                "curl",
+                "http",
+                "multi",
+                "parallel",
+                "php",
+                "requests",
+                "spider"
+            ],
+            "time": "2016-06-08T07:34:09+00:00"
+        },
+        {
+            "name": "netresearch/jsonmapper",
+            "version": "v1.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cweiske/jsonmapper.git",
+                "reference": "0d4d1b48d682a93b6bfedf60b88c7750e9cb0b06"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cweiske/jsonmapper/zipball/0d4d1b48d682a93b6bfedf60b88c7750e9cb0b06",
+                "reference": "0d4d1b48d682a93b6bfedf60b88c7750e9cb0b06",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-pcre": "*",
+                "ext-reflection": "*",
+                "ext-spl": "*",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8.35 || ~5.7 || ~6.4",
+                "squizlabs/php_codesniffer": "~1.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "JsonMapper": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Weiske",
+                    "role": "Developer",
+                    "email": "cweiske@cweiske.de",
+                    "homepage": "http://github.com/cweiske/jsonmapper/"
+                }
+            ],
+            "description": "Map nested JSON structures onto PHP classes",
+            "time": "2019-08-15T19:41:25+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
